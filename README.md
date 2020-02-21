@@ -1,2 +1,2 @@
 # create-lib
-Boring Package Generator - @boringapp
+Boring NPM Package Generator - @boringapp
