@@ -9,13 +9,13 @@ Boring NPM Package Generator - @boringapp
 Make sure `yeoman` is installed:
 
 ```sh
-$ npm install -g yo
+$ yarn global add yo
 ```
 
 Then install the generator
 
 ```sh
-$ npm install -g generator-create-package
+$ yarn global add generator-create-package
 ```
 
 ## Usage
