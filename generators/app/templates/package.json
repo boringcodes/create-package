@@ -1,0 +1,54 @@
+{
+  "name": "<%= elementName %>",
+  "description": "<%= elementDescription %>",
+  "version": "1.0.0",
+  "private": true,
+  "license": "MIT",
+  "author": "<%= elementAuthor %>",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "bugs": {
+    "url": ""
+  },
+  "engines": {
+    "node": ">=10.0.0 <11"
+  },
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "clean": "rm -rf dist",
+    "purge": "rm -rf node_modules",
+    "dev": "rollup -cw",
+    "prebuild": "yarn clean",
+    "build": "rollup -c",
+    "lint": "tslint --project tsconfig.json --config tslint.json",
+    "release": "standard-version",
+    "release:major": "yarn release --release-as major",
+    "release:minor": "yarn release --release-as minor",
+    "release:patch": "yarn release --release-as patch"
+  },
+  "devDependencies": {
+    "@types/isomorphic-fetch": "^0.0.35",
+    "husky": "^2.3.0",
+    "rollup": "^1.12.3",
+    "rollup-plugin-async": "^1.2.0",
+    "rollup-plugin-commonjs": "^10.0.0",
+    "rollup-plugin-node-resolve": "^5.0.0",
+    "rollup-plugin-sourcemaps": "^0.4.2",
+    "rollup-plugin-typescript2": "^0.21.1",
+    "standard-version": "^6.0.1",
+    "tslint": "^5.16.0",
+    "tslint-config-airbnb": "^5.11.1",
+    "tslint-immutable": "^5.5.2",
+    "tslint-sonarts": "^1.9.0",
+    "typescript": "^3.4.5"
+  },
+  "dependencies": {
+    "isomorphic-fetch": "^2.2.1"
+  }
+}

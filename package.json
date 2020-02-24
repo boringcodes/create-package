@@ -1,0 +1,28 @@
+{
+  "name": "generator-create-package",
+  "version": "1.0.0",
+  "description": "Boring NPM Package Generator",
+  "main": "generators/index.js",
+  "repository": "git@github.com:boringcodes/create-package.git",
+  "author": "Khang Huynh <khanghuynh92@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/boringcodes/create-package.git"
+  },
+  "bugs": {
+    "url": "https://github.com/boringcodes/create-package/issues"
+  },
+  "license": "MIT",
+  "files": [
+    "generators"
+  ],
+  "keywords": [
+    "yeoman-generator",
+    "create-package"
+  ],
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "yeoman-generator": "^4.5.0",
+    "yosay": "^2.0.2"
+  }
+}
