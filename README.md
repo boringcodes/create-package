@@ -1,2 +1,2 @@
 # create-package
-Boring NPM Package Generator - @boringapp
+Boring Node.js Package Generator
