@@ -5,13 +5,8 @@
   "private": true,
   "license": "MIT",
   "author": "<%= elementAuthor %>",
-  "repository": {
-    "type": "git",
-    "url": ""
-  },
-  "bugs": {
-    "url": ""
-  },
+  "repository": "",
+  "bugs": "",
   "engines": {
     "node": ">=10.0.0 <11"
   },
