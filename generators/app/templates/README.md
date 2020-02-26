@@ -1,3 +1,3 @@
-# base
+# <%= elementName %>
 
 Library Starter Kit
