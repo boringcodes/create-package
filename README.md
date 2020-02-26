@@ -27,10 +27,6 @@
   </div>
 </div>
 
-## About
-
-Boring NPM Package Generator - @boringapp
-
 ## Install
 
 Make sure `yeoman` is installed:
