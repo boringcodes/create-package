@@ -26,3 +26,53 @@
     </a>
   </div>
 </div>
+
+## Installation
+
+Make sure `yeoman` is installed:
+
+```sh
+$ yarn global add yo
+```
+
+Then install the generator
+
+```sh
+$ yarn global add @boringcodes/create-package
+```
+
+## Usage
+
+With [yo](https://github.com/yeoman/yo):
+
+```sh
+$ yo create-package
+```
+
+This scaffolds out:
+```
+├── CHANGELOG.md
+├── README.md
+├── package.json
+├── rollup.config.js
+├── src
+│   ├── index.ts
+│   └── package-name
+│       └── index.ts
+├── tsconfig.json
+└── tslint.json
+```
+
+## Contributing
+
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
+
+## Authors
+
+[BoringCodes](https://github.com/boringcodes)
+
+## License
+
+[MIT](https://github.com/boringcodes/create-package/blob/master/LICENSE)
