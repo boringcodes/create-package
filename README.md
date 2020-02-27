@@ -38,7 +38,7 @@ $ yarn global add yo
 Then install the generator
 
 ```sh
-$ yarn global add generator-create-package
+$ yarn global add @boringcodes/generator-create-package
 ```
 
 ## Usage
