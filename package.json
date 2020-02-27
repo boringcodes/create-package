@@ -2,7 +2,7 @@
   "name": "@boringcodes/generator-create-package",
   "version": "0.0.0",
   "description": "Boring Node.js Package Generator",
-  "main": "generators/index.js",
+  "main": "generators/app/index.js",
   "repository": "git@github.com:boringcodes/create-package.git",
   "author": "BoringCodes <hi@boringcodes.com> (https://boringcodes.com)",
   "repository": "https://github.com/boringcodes/create-package.git",
