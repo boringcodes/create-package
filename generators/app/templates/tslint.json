@@ -11,28 +11,5 @@
       "dist",
       "**/*.js"
     ]
-  },
-  "rules": {
-    // tslint-config-airbnb
-    "import-name": false,
-    "no-submodule-imports": false,
-    "interface-over-type-literal": true,
-    "variable-name": [true, "allow-pascal-case"],
-
-    // tslint-immutable
-    // Recommended built-in rules
-    "no-var-keyword": true,
-    "no-parameter-reassignment": true,
-
-    // Immutability rules
-    "readonly-keyword": true,
-    "readonly-array": true,
-    "no-let": true,
-    "no-object-mutation": true,
-    "no-delete": true,
-    "no-method-signature": true,
-
-    // Functional style rules
-    "no-mixed-interface": true
   }
 }
