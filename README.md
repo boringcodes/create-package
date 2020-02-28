@@ -7,7 +7,7 @@
       <img src="https://img.shields.io/badge/commitizen-friendly-brightgreen.svg?style=flat-square">
     </a>
     <a href="https://github.com/boringcodes/create-package/actions" aria-label="GitHub Workflow Status">
-      <img src="https://img.shields.io/github/workflow/status/boringcodes/create-package/Publish Package to NPM?style=flat-square">
+      <img src="https://img.shields.io/github/workflow/status/boringcodes/create-package/publish-npm?style=flat-square">
     </a>
     <a href="https://david-dm.org/boringcodes/create-package" aria-label="Dependencies Status">
       <img src="https://img.shields.io/david/boringcodes/create-package?style=flat-square">
