@@ -1,6 +1,6 @@
 {
   "name": "@boringcodes/create-package",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Boring Node.js Package Generator",
   "main": "generators/app/index.js",
   "author": "BoringCodes <hi@boringcodes.com> (https://boringcodes.com)",
