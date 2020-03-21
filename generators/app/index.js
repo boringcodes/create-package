@@ -1,34 +1,33 @@
 const Generator = require('yeoman-generator');
-const chalk = require("chalk");
-const yosay = require("yosay");
+const chalk = require('chalk');
+const yosay = require('yosay');
+
 const pkg = require('../../package.json');
 
 module.exports = class extends Generator {
   async prompting() {
     this.log(
-      yosay(
-        `Welcome to the astounding ${chalk.red(pkg.name)} generator!`
-      )
+      yosay(`Welcome to the astounding ${chalk.red(pkg.name)} generator!`),
     );
-    
+
     const prompts = [
       {
-        type: "input",
-        name: "elementName",
-        message: "What is the name of your package?",
-        default: "my-awesome-package"
+        type: 'input',
+        name: 'elementName',
+        message: 'What is the name of your package?',
+        default: 'my-awesome-package',
       },
       {
-        type: "input",
-        name: "elementDescription",
-        message: "Give us some small description of your package",
-        default: ""
+        type: 'input',
+        name: 'elementDescription',
+        message: 'Give us some small description of your package',
+        default: '',
       },
       {
-        type: "input",
-        name: "elementAuthor",
-        message: "Who is the author of this package?",
-        default: ""
+        type: 'input',
+        name: 'elementAuthor',
+        message: 'Who is the author of this package?',
+        default: '',
       },
     ];
 
@@ -40,15 +39,13 @@ module.exports = class extends Generator {
 
   writing() {
     this.fs.copyTpl(
-      [
-        this.templatePath('**'),
-      ],
+      [this.templatePath('**')],
       this.destinationPath(),
       this.props,
     );
   }
 
-  install () {
+  install() {
     this.installDependencies();
   }
 };
