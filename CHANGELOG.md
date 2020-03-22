@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.3](https://github.com/boringcodes/create-package/compare/v0.1.2...v0.1.3) (2020-03-22)
+
+
+### Bug Fixes
+
+* **close #6:** rename to generator-create-package to solve yo does not support scoped package ([#7](https://github.com/boringcodes/create-package/issues/7)) ([8f42b5f](https://github.com/boringcodes/create-package/commit/8f42b5fe189025a1ab4137b3f58ce949cc26c32d)), closes [#6](https://github.com/boringcodes/create-package/issues/6)
+
 ### [0.1.2](https://github.com/boringcodes/create-package/compare/v0.1.1...v0.1.2) (2020-03-21)
 
 ### [0.1.1](https://github.com/boringcodes/create-package/compare/v0.1.0...v0.1.1) (2020-02-28)
