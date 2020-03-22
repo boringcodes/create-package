@@ -1,5 +1,5 @@
 {
-  "name": "@boringcodes/create-package",
+  "name": "generator-create-package",
   "version": "0.1.2",
   "description": "Boring Node.js Package Generator",
   "homepage": "https://github.com/boringcodes/create-package",
