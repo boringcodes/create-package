@@ -37,13 +37,13 @@ module.exports = class extends Generator {
       {
         type: 'input',
         name: 'elementHomepageUrl',
-        message: 'Package homepage URL?',
+        message: 'Homepage URL?',
         default: `https://github.com/${githubUsername}/${this.appname}`,
       },
       {
         type: 'input',
         name: 'elementBugsUrl',
-        message: 'Bugs tracking site?',
+        message: 'Bugs tracking URL?',
         default: `https://github.com/${githubUsername}/${this.appname}/issues`,
       },
       {
@@ -55,7 +55,7 @@ module.exports = class extends Generator {
       {
         type: 'input',
         name: 'elementRepositoryUrl',
-        message: 'Package repository URL?',
+        message: 'Repository URL?',
         default: `https://github.com/${githubUsername}/${this.appname}.git`,
       },
     ];
@@ -68,7 +68,7 @@ module.exports = class extends Generator {
 
   writing() {
     this.fs.copyTpl(
-      [this.templatePath('**/*.*')],
+      [this.templatePath('**/*'), this.templatePath('**/.*')],
       this.destinationPath(),
       this.props,
     );
