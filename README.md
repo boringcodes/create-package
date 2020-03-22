@@ -25,11 +25,13 @@
       <img src="https://img.shields.io/badge/boringcodes-verified-brightgreen?style=flat-square">
     </a>
   </div>
+
+  <img src="banner.png">
 </div>
 
 ## Installation
 
-Make sure `yeoman` is installed:
+Make sure `yeoman` is installed
 
 ```sh
 $ yarn global add yo
@@ -43,22 +45,26 @@ $ yarn global add generator-create-package
 
 ## Usage
 
-With [yo](https://github.com/yeoman/yo):
+Create a new directory
+
+```sh
+$ mkdir package-name
+```
+
+Then navigate to the created directory and run the following command to generate source
 
 ```sh
 $ yo create-package
 ```
 
 This scaffolds out:
+
 ```
-├── CHANGELOG.md
-├── README.md
-├── package.json
-├── rollup.config.js
 ├── src
 │   ├── index.ts
-│   └── package-name
-│       └── index.ts
+├── .huskyrc
+├── package.json
+├── rollup.config.js
 ├── tsconfig.json
 └── tslint.json
 ```

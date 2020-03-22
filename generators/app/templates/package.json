@@ -1,12 +1,11 @@
 {
   "name": "<%= elementName %>",
-  "description": "<%= elementDescription %>",
   "version": "0.0.0",
-  "private": true,
-  "license": "MIT",
-  "author": "<%= elementAuthor %>",
-  "repository": "",
-  "bugs": "",
+  "description": "<%= elementDescription %>",
+  "homepage": "<%= elementHomepageUrl %>",
+  "bugs": "<%= elementBugsUrl %>",
+  "author": "<%- elementAuthor %>",
+  "repository": "<%= elementRepositoryUrl %>",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "files": [
@@ -25,7 +24,6 @@
     "release:patch": "yarn release --release-as patch"
   },
   "devDependencies": {
-    "@types/isomorphic-fetch": "^0.0.35",
     "husky": "^2.3.0",
     "rollup": "^1.12.3",
     "rollup-plugin-async": "^1.2.0",
