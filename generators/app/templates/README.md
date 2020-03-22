@@ -1,3 +1,0 @@
-# <%= elementName %>
-
-Library Starter Kit
