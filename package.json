@@ -1,6 +1,6 @@
 {
   "name": "generator-create-package",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Boring TypeScript Package Generator",
   "homepage": "https://github.com/boringcodes/create-package",
   "bugs": "https://github.com/boringcodes/create-package/issues",
