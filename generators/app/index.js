@@ -68,13 +68,17 @@ module.exports = class extends Generator {
 
   writing() {
     this.fs.copyTpl(
-      [this.templatePath('**/*'), this.templatePath('**/.*')],
+      [
+        this.templatePath('**/*'),
+        this.templatePath('**/.*'),
+        this.templatePath('.github/**/*'),
+      ],
       this.destinationPath(),
       this.props,
     );
   }
 
   install() {
-    this.yarnInstall();
+    // this.yarnInstall();
   }
 };
