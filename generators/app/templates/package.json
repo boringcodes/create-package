@@ -19,7 +19,7 @@
     "prebuild": "yarn clean",
     "build": "rollup -c",
     "lint": "tslint --project tsconfig.json --config tslint.json",
-    "release": "standard-version",
+    "release": "standard-version --no-verify",
     "release:major": "yarn release --release-as major",
     "release:minor": "yarn release --release-as minor",
     "release:patch": "yarn release --release-as patch"
