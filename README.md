@@ -1,6 +1,6 @@
 <div align="center">
   <h1>create-package</h1>
-  <p>Boring Node.js Package Generator</p>
+  <p>Boring TypeScript Package Generator</p>
 
   <p>
     <a href="https://github.com/boringcodes/create-package/commits" aria-label="Commitizen Friendly">
