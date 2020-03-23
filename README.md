@@ -29,6 +29,14 @@
   <img src="banner.png">
 </div>
 
+## Features
+
+- [x] Rollupjs packaging system with TypeScript by default
+- [x] Tslint support
+- [x] Husky hooks support
+- [x] Conventional release by **standard-version**
+- [x] GitHub actions (build, create github release, publish to npm)
+
 ## Installation
 
 Make sure `yeoman` is installed
