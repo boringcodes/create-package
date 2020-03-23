@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.1.0](https://github.com/boringcodes/create-package/compare/v1.0.4...v1.1.0) (2020-03-23)
+
+
+### Features
+
+* **close #12:** add github workflows to template ([#13](https://github.com/boringcodes/create-package/issues/13)) ([e6912ed](https://github.com/boringcodes/create-package/commit/e6912ed200f4758a9e4f70dd2c2385121433f152)), closes [#12](https://github.com/boringcodes/create-package/issues/12)
+
+
+### Bug Fixes
+
+* **close #12:** .github dir does not get copied ([5a3123b](https://github.com/boringcodes/create-package/commit/5a3123b90ef461ee1dd94c410bbfd7af1bb40605)), closes [#12](https://github.com/boringcodes/create-package/issues/12)
+
 ### [1.0.4](https://github.com/boringcodes/create-package/compare/v1.0.3...v1.0.4) (2020-03-23)
 
 ### [1.0.3](https://github.com/boringcodes/create-package/compare/v1.0.2...v1.0.3) (2020-03-23)
