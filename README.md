@@ -34,12 +34,12 @@
 
 ## Features
 
-- [x] Rollupjs packaging system with TypeScript by default
-- [ ] Prettier
-- [x] TsLint
+- [x] Rollupjs (TypeScript)
+- [x] Prettier
+- [x] TSLint (tslint-config-airbnb, tslint-immutable, tslint-sonarts)
 - [x] Husky
-- [x] Conventional release by **standard-version**
-- [x] GitHub actions (build, create github release, publish to npm)
+- [x] Standard Version
+- [x] GitHub Actions
 
 ## Installation
 
