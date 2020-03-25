@@ -14,14 +14,16 @@ const common = {
   plugins: [
     resolve(),
     commonjs(),
-    typescript({ useTsconfigDeclarationDir: true, rollupCommonJSResolveHack: true }),
+    typescript({
+      useTsconfigDeclarationDir: true,
+      rollupCommonJSResolveHack: true,
+    }),
     async(),
     sourceMaps(),
   ],
 };
 
 export default [
-  // package-name
   {
     ...common,
     input: 'src/index.ts',
@@ -32,5 +34,5 @@ export default [
         sourcemap: true,
       },
     ],
-  }
+  },
 ];
