@@ -6,9 +6,7 @@ const pkg = require('../../package.json');
 
 module.exports = class extends Generator {
   async prompting() {
-    this.log(
-      yosay(`Welcome to the ${chalk.red(pkg.name)} generator!`),
-    );
+    this.log(yosay(`Welcome to the ${chalk.red(pkg.name)} generator!`));
 
     const gitName = this.user.git.name() || 'organization';
     const gitEmail = this.user.git.email() || 'hi@domain.com';
@@ -60,8 +58,7 @@ module.exports = class extends Generator {
       },
     ];
 
-    return this.prompt(prompts).then(props => {
-      // To access props later use this.props.someAnswer;
+    return this.prompt(prompts).then((props) => {
       this.props = props;
     });
   }
@@ -79,6 +76,6 @@ module.exports = class extends Generator {
   }
 
   install() {
-    // this.yarnInstall();
+    this.yarnInstall();
   }
 };
