@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.2.0](https://github.com/boringcodes/create-package/compare/v1.1.0...v1.2.0) (2020-03-25)
+
+
+### Features
+
+* **packpage:** add prettier to format code ([562ca2c](https://github.com/boringcodes/create-package/commit/562ca2c9cc23210121ab7a8775e7a22d6a0e7cef))
+* **template:** add prettier for formating code ([05a716d](https://github.com/boringcodes/create-package/commit/05a716d8654c77f688b0a3cf9ae1274e2e25ce04))
+* **template:** publish dist/ instead of root dir to npm ([fe6fc83](https://github.com/boringcodes/create-package/commit/fe6fc835e69176b6a6fbd3177234af72efb9e777))
+
+
+### Bug Fixes
+
+* **generator:** uncomment this.yarnInstall() ([f1deff9](https://github.com/boringcodes/create-package/commit/f1deff9f496cb693234497c1d16e32e160419c4b))
+
 ## [1.1.0](https://github.com/boringcodes/create-package/compare/v1.0.4...v1.1.0) (2020-03-23)
 
 ### Features
