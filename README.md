@@ -6,6 +6,9 @@
     <a href="https://github.com/boringcodes/create-package/commits" aria-label="Commitizen Friendly">
       <img src="https://img.shields.io/badge/commitizen-friendly-brightgreen.svg?style=flat-square">
     </a>
+    <a href="https://github.com/boringcodes/create-package" aria-label="Prettier Code Style">
+      <img src="https://img.shields.io/badge/code_style-prettier-brightgreen?style=flat-square">
+    </a>
     <a href="https://github.com/boringcodes/create-package/actions" aria-label="GitHub Workflow Status">
       <img src="https://img.shields.io/github/workflow/status/boringcodes/create-package/publish-npm?style=flat-square">
     </a>
@@ -32,8 +35,9 @@
 ## Features
 
 - [x] Rollupjs packaging system with TypeScript by default
-- [x] Tslint support
-- [x] Husky hooks support
+- [ ] Prettier
+- [x] TsLint
+- [x] Husky
 - [x] Conventional release by **standard-version**
 - [x] GitHub actions (build, create github release, publish to npm)
 
