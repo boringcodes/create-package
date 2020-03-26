@@ -1,38 +1,25 @@
 import resolve from 'rollup-plugin-node-resolve';
-import commonjs from 'rollup-plugin-commonjs';
 import typescript from 'rollup-plugin-typescript2';
-import async from 'rollup-plugin-async';
-import sourceMaps from 'rollup-plugin-sourcemaps';
 
 import pkg from './package.json';
 
-const common = {
+const getConfig = (inputFile) => ({
   external: [
     ...Object.keys(pkg.dependencies || {}),
     ...Object.keys(pkg.peerDependencies || {}),
   ],
-  plugins: [
-    resolve(),
-    commonjs(),
-    typescript({
-      useTsconfigDeclarationDir: true,
-      rollupCommonJSResolveHack: true,
-    }),
-    async(),
-    sourceMaps(),
+  plugins: [resolve(), typescript({ useTsconfigDeclarationDir: true })],
+  input: inputFile,
+  output: [
+    {
+      dir: 'dist',
+      format: 'cjs',
+      sourcemap: true,
+    },
   ],
-};
+});
 
 export default [
-  {
-    ...common,
-    input: 'src/index.ts',
-    output: [
-      {
-        file: pkg.main,
-        format: 'cjs',
-        sourcemap: true,
-      },
-    ],
-  },
+  getConfig('src/index.ts'),
+  // TODO: add another file here
 ];
