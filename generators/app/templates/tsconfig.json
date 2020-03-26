@@ -1,19 +1,17 @@
 {
   "compilerOptions": {
     "moduleResolution": "node",
+    "module": "es6",
     "target": "es5",
-    "module": "esNext",
-    "lib": ["es2015", "es2016", "es2017", "dom"],
-    "strict": true,
-    "sourceMap": true,
-    "declaration": true,
-    "allowSyntheticDefaultImports": true,
-    "experimentalDecorators": true,
-    "emitDecoratorMetadata": true,
+    "rootDir": "src",
     "outDir": "dist",
+    "declaration": true,
     "declarationDir": "dist",
-    "typeRoots": ["node_modules/@types"]
+    "esModuleInterop": true,
+    "preserveConstEnums": true,
+    "removeComments": true,
+    "sourceMap": true,
+    "strict": true
   },
-  "include": ["src"],
-  "exclude": ["node_modules", "dist", "**/*.js"]
+  "include": ["src/**/*"]
 }
