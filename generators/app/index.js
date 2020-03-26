@@ -49,15 +49,15 @@ module.exports = class extends Generator {
       },
     ];
 
-    return this.prompt(prompts).then((props) => {
-      this.props = {
-        ...props,
-        elementName: changeCase.paramCase(props.elementName),
-        elementOrganizationName: changeCase.paramCase(
-          props.elementOrganizationName,
-        ),
-      };
-    });
+    const props = await this.prompt(prompts);
+
+    this.props = {
+      ...props,
+      elementName: changeCase.paramCase(props.elementName),
+      elementOrganizationName: changeCase.paramCase(
+        props.elementOrganizationName,
+      ),
+    };
   }
 
   writing() {
