@@ -10,17 +10,18 @@ module.exports = class extends Generator {
     this.log(yosay(`Welcome to the ${chalk.red(pkg.name)} generator!`));
 
     const appName = changeCase.paramCase(this.appname);
-    const gitName = this.user.git.name() || 'organization';
-    const gitEmail = this.user.git.email() || 'hi@domain.com';
-    const githubUsername = await (async () => {
+    const organizationName = await (async () => {
       try {
         const username = await this.user.github.username();
 
         return username;
       } catch (err) {
-        return gitName;
+        return 'organization-name';
       }
     })();
+    const gitName = this.user.git.name() || organizationName;
+    const gitEmail =
+      this.user.git.email() || `my-email@${organizationName}.com`;
     const prompts = [
       {
         type: 'input',
@@ -36,15 +37,9 @@ module.exports = class extends Generator {
       },
       {
         type: 'input',
-        name: 'elementHomepage',
-        message: 'Homepage?',
-        default: `https://github.com/${githubUsername}/${appName}`,
-      },
-      {
-        type: 'input',
-        name: 'elementBugs',
-        message: 'Bugs tracker?',
-        default: `https://github.com/${githubUsername}/${appName}/issues`,
+        name: 'elementOrganizationName',
+        message: 'GitHub organization name?',
+        default: organizationName,
       },
       {
         type: 'input',
@@ -52,16 +47,16 @@ module.exports = class extends Generator {
         message: 'Author?',
         default: `${gitName} \<${gitEmail}\>`,
       },
-      {
-        type: 'input',
-        name: 'elementRepository',
-        message: 'Repository?',
-        default: `https://github.com/${githubUsername}/${appName}.git`,
-      },
     ];
 
     return this.prompt(prompts).then((props) => {
-      this.props = props;
+      this.props = {
+        ...props,
+        elementName: changeCase.paramCase(props.elementName),
+        elementOrganizationName: changeCase.paramCase(
+          props.elementOrganizationName,
+        ),
+      };
     });
   }
 
