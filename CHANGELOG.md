@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.3.0](https://github.com/boringcodes/create-package/compare/v1.2.0...v1.3.0) (2020-03-26)
+
+
+### Features
+
+* **template:** remove unnecessary rollup plugins, update rollup config ([f366ef0](https://github.com/boringcodes/create-package/commit/f366ef0c18dcc3f3c868201c7dbe84018ce34712))
+* **template:** update ts config module & target, remove unnecessary ones ([9900cb2](https://github.com/boringcodes/create-package/commit/9900cb2502bad6a069e41e5313b6581f42f9c327))
+
+
+### Bug Fixes
+
+* **generator:** add change-case to paramCase appname to solve invalid package name ([98492bb](https://github.com/boringcodes/create-package/commit/98492bb72c30f63798a681f9f8776eede6f8579f))
+
 ## [1.2.0](https://github.com/boringcodes/create-package/compare/v1.1.0...v1.2.0) (2020-03-25)
 
 
