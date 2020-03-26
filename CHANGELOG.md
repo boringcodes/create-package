@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.4.0](https://github.com/boringcodes/create-package/compare/v1.3.0...v1.4.0) (2020-03-26)
+
+
+### Features
+
+* **generator:** reduce questions to 4 by asking org instead of homepage, bugs & repository urls ([2f80aa8](https://github.com/boringcodes/create-package/commit/2f80aa80b0ef761171cfc22deb631c3a9563327a))
+
 ## [1.3.0](https://github.com/boringcodes/create-package/compare/v1.2.0...v1.3.0) (2020-03-26)
 
 
