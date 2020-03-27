@@ -4,37 +4,32 @@ All notable changes to this project will be documented in this file. See [standa
 
 ## [1.4.0](https://github.com/boringcodes/create-package/compare/v1.3.0...v1.4.0) (2020-03-26)
 
-
 ### Features
 
-* **generator:** reduce questions to 4 by asking org instead of homepage, bugs & repository urls ([2f80aa8](https://github.com/boringcodes/create-package/commit/2f80aa80b0ef761171cfc22deb631c3a9563327a))
+- **generator:** reduce questions to 4 by asking org instead of homepage, bugs & repository urls ([2f80aa8](https://github.com/boringcodes/create-package/commit/2f80aa80b0ef761171cfc22deb631c3a9563327a))
 
 ## [1.3.0](https://github.com/boringcodes/create-package/compare/v1.2.0...v1.3.0) (2020-03-26)
 
-
 ### Features
 
-* **template:** remove unnecessary rollup plugins, update rollup config ([f366ef0](https://github.com/boringcodes/create-package/commit/f366ef0c18dcc3f3c868201c7dbe84018ce34712))
-* **template:** update ts config module & target, remove unnecessary ones ([9900cb2](https://github.com/boringcodes/create-package/commit/9900cb2502bad6a069e41e5313b6581f42f9c327))
-
+- **template:** remove unnecessary rollup plugins, update rollup config ([f366ef0](https://github.com/boringcodes/create-package/commit/f366ef0c18dcc3f3c868201c7dbe84018ce34712))
+- **template:** update ts config module & target, remove unnecessary ones ([9900cb2](https://github.com/boringcodes/create-package/commit/9900cb2502bad6a069e41e5313b6581f42f9c327))
 
 ### Bug Fixes
 
-* **generator:** add change-case to paramCase appname to solve invalid package name ([98492bb](https://github.com/boringcodes/create-package/commit/98492bb72c30f63798a681f9f8776eede6f8579f))
+- **generator:** add change-case to paramCase appname to solve invalid package name ([98492bb](https://github.com/boringcodes/create-package/commit/98492bb72c30f63798a681f9f8776eede6f8579f))
 
 ## [1.2.0](https://github.com/boringcodes/create-package/compare/v1.1.0...v1.2.0) (2020-03-25)
 
-
 ### Features
 
-* **packpage:** add prettier to format code ([562ca2c](https://github.com/boringcodes/create-package/commit/562ca2c9cc23210121ab7a8775e7a22d6a0e7cef))
-* **template:** add prettier for formating code ([05a716d](https://github.com/boringcodes/create-package/commit/05a716d8654c77f688b0a3cf9ae1274e2e25ce04))
-* **template:** publish dist/ instead of root dir to npm ([fe6fc83](https://github.com/boringcodes/create-package/commit/fe6fc835e69176b6a6fbd3177234af72efb9e777))
-
+- **packpage:** add prettier to format code ([562ca2c](https://github.com/boringcodes/create-package/commit/562ca2c9cc23210121ab7a8775e7a22d6a0e7cef))
+- **template:** add prettier for formating code ([05a716d](https://github.com/boringcodes/create-package/commit/05a716d8654c77f688b0a3cf9ae1274e2e25ce04))
+- **template:** publish dist/ instead of root dir to npm ([fe6fc83](https://github.com/boringcodes/create-package/commit/fe6fc835e69176b6a6fbd3177234af72efb9e777))
 
 ### Bug Fixes
 
-* **generator:** uncomment this.yarnInstall() ([f1deff9](https://github.com/boringcodes/create-package/commit/f1deff9f496cb693234497c1d16e32e160419c4b))
+- **generator:** uncomment this.yarnInstall() ([f1deff9](https://github.com/boringcodes/create-package/commit/f1deff9f496cb693234497c1d16e32e160419c4b))
 
 ## [1.1.0](https://github.com/boringcodes/create-package/compare/v1.0.4...v1.1.0) (2020-03-23)
 
