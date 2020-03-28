@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.6.0](https://github.com/boringcodes/create-package/compare/v1.5.0...v1.6.0) (2020-03-28)
+
+
+### Features
+
+* **template:** remove @typescript-eslint/parser eslint-config-standard in favor of eslint-config-standard-with-typescript ([13ec183](https://github.com/boringcodes/create-package/commit/13ec18304f19da0d6f004dc8ad69c26986e5eac5))
+* **template:** remove unused tslint.json ([e94d428](https://github.com/boringcodes/create-package/commit/e94d4287f5e34ee88d1c1b677da99fb017e24e18))
+* **template:** replace pretty-quick with lint-staged, add tsconfig.json ([d5fd206](https://github.com/boringcodes/create-package/commit/d5fd206b8ffeb0f8d7f9719f569a826fbc6f36c3))
+
+
+### Bug Fixes
+
+* **template:** add @typescript-eslint/parser to dev deps to resolve unmet peer dep ([49e2f25](https://github.com/boringcodes/create-package/commit/49e2f25e8c623419208075b41b3ec4bc6accce85))
+
 ## [1.5.0](https://github.com/boringcodes/create-package/compare/v1.4.0...v1.5.0) (2020-03-28)
 
 
