@@ -9,8 +9,8 @@
     <a href="https://github.com/boringcodes/create-package" aria-label="Prettier Code Style">
       <img src="https://img.shields.io/badge/code_style-prettier-brightgreen?style=flat-square">
     </a>
-    <a href="https://github.com/boringcodes/create-package/actions" aria-label="GitHub Workflow Status">
-      <img src="https://img.shields.io/github/workflow/status/boringcodes/create-package/publish-npm?style=flat-square">
+    <a href="https://github.com/boringcodes/create-package/actions" aria-label="Lint Status">
+      <img src="https://img.shields.io/github/workflow/status/boringcodes/create-package/lint-source?style=flat-square&label=lint">
     </a>
     <a href="https://david-dm.org/boringcodes/create-package" aria-label="Dependencies Status">
       <img src="https://img.shields.io/david/boringcodes/create-package?style=flat-square">
@@ -39,7 +39,6 @@
 - [x] TSLint (tslint-config-airbnb, tslint-immutable, tslint-sonarts)
 - [x] Husky
 - [x] Standard Version
-- [x] GitHub Actions
 
 ## Installation
 
