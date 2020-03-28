@@ -29,6 +29,7 @@
     "@boringcodes/eslint-config-typescript": "*",
     "@boringcodes/prettier-config": "*",
     "@typescript-eslint/eslint-plugin": "^2.25.0",
+    "@typescript-eslint/parser": "^2.25.0",
     "copyfiles": "^2.2.0",
     "eslint": "^6.8.0",
     "eslint-config-prettier": "^6.10.1",
