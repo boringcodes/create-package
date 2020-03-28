@@ -13,5 +13,7 @@
     "sourceMap": true,
     "strict": true
   },
-  "include": ["src/**/*"]
+  "include": [
+    "**/*.ts"
+  ]
 }
