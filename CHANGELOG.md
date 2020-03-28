@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.5.0](https://github.com/boringcodes/create-package/compare/v1.4.0...v1.5.0) (2020-03-28)
+
+
+### Features
+
+* **generator:** remove .github generating ([5ddb543](https://github.com/boringcodes/create-package/commit/5ddb54377439f35ea5d982a43ef49d5d41ca4049))
+* **template:** replace tslint with eslint typescript ([3471278](https://github.com/boringcodes/create-package/commit/3471278c31177e26b21026c395e4880b6ea0fc5e))
+
 ## [1.4.0](https://github.com/boringcodes/create-package/compare/v1.3.0...v1.4.0) (2020-03-26)
 
 ### Features
