@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.7.0](https://github.com/boringcodes/create-package/compare/v1.6.0...v1.7.0) (2020-04-24)
+
+
+### Features
+
+* **template:** remove unused .prettierignore ([660e413](https://github.com/boringcodes/create-package/commit/660e413258d1752d8c102c58672abb7ca668b60c))
+
+
+### Bug Fixes
+
+* **deps:** mistaken putting change-case to devDeps ([9f846e1](https://github.com/boringcodes/create-package/commit/9f846e1a4518180fb58ccadd6597a498dfdb1485))
+
 ## [1.6.0](https://github.com/boringcodes/create-package/compare/v1.5.0...v1.6.0) (2020-03-28)
 
 
