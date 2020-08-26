@@ -41,6 +41,7 @@
     "lint-staged": "^10.0.9",
     "prettier": "^2.0.2",
     "rollup": "^1.12.3",
+    "rollup-plugin-commonjs": "^10.1.0",
     "rollup-plugin-node-resolve": "^5.0.0",
     "rollup-plugin-typescript2": "^0.21.1",
     "standard-version": "^6.0.1",

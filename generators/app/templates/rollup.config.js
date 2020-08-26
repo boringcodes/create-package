@@ -1,4 +1,5 @@
 import resolve from 'rollup-plugin-node-resolve';
+import commonjs from 'rollup-plugin-commonjs';
 import typescript from 'rollup-plugin-typescript2';
 
 import pkg from './package.json';
@@ -8,7 +9,14 @@ const getConfig = (inputFile) => ({
     ...Object.keys(pkg.dependencies || {}),
     ...Object.keys(pkg.peerDependencies || {}),
   ],
-  plugins: [resolve(), typescript({ useTsconfigDeclarationDir: true })],
+  plugins: [
+    resolve(),
+    commonjs(),
+    typescript({
+      useTsconfigDeclarationDir: true,
+      rollupCommonJSResolveHack: true,
+    }),
+  ],
   input: inputFile,
   output: [
     {
