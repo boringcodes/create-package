@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.7.1](https://github.com/boringcodes/create-package/compare/v1.7.0...v1.7.1) (2020-08-26)
+
+
+### Bug Fixes
+
+* **templates:** add missing rollup-plugin-commonjs package to fix commonjs build ([762aeb4](https://github.com/boringcodes/create-package/commit/762aeb4cf7fe35a5d1fb84bc4e517f2a365d93e8))
+
 ## [1.7.0](https://github.com/boringcodes/create-package/compare/v1.6.0...v1.7.0) (2020-04-24)
 
 
