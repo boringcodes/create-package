@@ -34,11 +34,14 @@
 
 ## Features
 
-- [x] Rollupjs (TypeScript)
-- [x] Prettier
-- [x] TSLint (tslint-config-airbnb, tslint-immutable, tslint-sonarts)
-- [x] Husky
-- [x] Standard Version
+- [x] [Typescript](https://www.typescriptlang.org)
+- [x] [RollupJS](https://rollupjs.org)
+- [x] [Prettier](https://prettier.io) using [@boringcodes/prettier-config](https://github.com/boringcodes/prettier-config)
+- [x] [ESLint](https://eslint.org) using [@boringcodes/eslint-config-typescript](https://github.com/boringcodes/eslint-config-typescript)
+- [x] [Husky](https://github.com/typicode/husky)
+- [x] [lint-staged](https://github.com/okonet/lint-staged)
+- [x] [NVM](https://github.com/nvm-sh/nvm)
+- [x] [standard-version](https://github.com/conventional-changelog/standard-version)
 
 ## Installation
 
@@ -73,11 +76,13 @@ This scaffolds out:
 ```
 ├── src
 │   ├── index.ts
+├── .eslintrc.js
 ├── .huskyrc
+├── .lintstagedrc
+├── .prettierrc.js
 ├── package.json
 ├── rollup.config.js
 ├── tsconfig.json
-└── tslint.json
 ```
 
 ## Contributing
