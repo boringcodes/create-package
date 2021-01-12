@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.8.0](https://github.com/boringcodes/create-package/compare/v1.7.1...v1.8.0) (2021-01-12)
+
+
+### Features
+
+* **lint-staged:** update glob pattern to ignore /templates dir ([0b752dd](https://github.com/boringcodes/create-package/commit/0b752dd96e5152142bee62ddf6d9d14fed95dc81))
+* **templates:** set all packages version to *, replace old rollup plugins with the new ones ([bd35919](https://github.com/boringcodes/create-package/commit/bd35919890361c34283fef592151d86973958711))
+
 ### [1.7.1](https://github.com/boringcodes/create-package/compare/v1.7.0...v1.7.1) (2020-08-26)
 
 
