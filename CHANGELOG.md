@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.9.0](https://github.com/boringcodes/create-package/compare/v1.8.2...v1.9.0) (2021-02-10)
+
+### Features
+
+- **templates:** add @rollup/plugin-commonjs ([a79c614](https://github.com/boringcodes/create-package/commit/a79c6146e51fdfb32eb7f61a0b6e61e6d7f506e2))
+- **templates:** change build output dir to build instead of dist ([1ee6896](https://github.com/boringcodes/create-package/commit/1ee6896bb62ea251ee75ddd1157661e749e483ef))
+
 ### [1.8.2](https://github.com/boringcodes/create-package/compare/v1.8.1...v1.8.2) (2021-02-10)
 
 ### [1.8.1](https://github.com/boringcodes/create-package/compare/v1.8.0...v1.8.1) (2021-02-10)
