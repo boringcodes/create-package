@@ -27,6 +27,7 @@
   "devDependencies": {
     "@boringcodes/eslint-config-typescript": "*",
     "@boringcodes/prettier-config": "*",
+    "@rollup/plugin-commonjs": "*",
     "@rollup/plugin-node-resolve": "*",
     "@rollup/plugin-typescript": "*",
     "@typescript-eslint/eslint-plugin": "*",
