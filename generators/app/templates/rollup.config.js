@@ -13,7 +13,7 @@ const getConfig = (inputFile) => ({
   input: inputFile,
   output: [
     {
-      dir: 'dist',
+      dir: 'build',
       format: 'cjs',
       sourcemap: true,
       exports: 'auto',
