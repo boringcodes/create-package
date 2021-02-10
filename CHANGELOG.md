@@ -4,52 +4,45 @@ All notable changes to this project will be documented in this file. See [standa
 
 ## [1.8.0](https://github.com/boringcodes/create-package/compare/v1.7.1...v1.8.0) (2021-01-12)
 
-
 ### Features
 
-* **lint-staged:** update glob pattern to ignore /templates dir ([0b752dd](https://github.com/boringcodes/create-package/commit/0b752dd96e5152142bee62ddf6d9d14fed95dc81))
-* **templates:** set all packages version to *, replace old rollup plugins with the new ones ([bd35919](https://github.com/boringcodes/create-package/commit/bd35919890361c34283fef592151d86973958711))
+- **lint-staged:** update glob pattern to ignore /templates dir ([0b752dd](https://github.com/boringcodes/create-package/commit/0b752dd96e5152142bee62ddf6d9d14fed95dc81))
+- **templates:** set all packages version to \*, replace old rollup plugins with the new ones ([bd35919](https://github.com/boringcodes/create-package/commit/bd35919890361c34283fef592151d86973958711))
 
 ### [1.7.1](https://github.com/boringcodes/create-package/compare/v1.7.0...v1.7.1) (2020-08-26)
 
-
 ### Bug Fixes
 
-* **templates:** add missing rollup-plugin-commonjs package to fix commonjs build ([762aeb4](https://github.com/boringcodes/create-package/commit/762aeb4cf7fe35a5d1fb84bc4e517f2a365d93e8))
+- **templates:** add missing rollup-plugin-commonjs package to fix commonjs build ([762aeb4](https://github.com/boringcodes/create-package/commit/762aeb4cf7fe35a5d1fb84bc4e517f2a365d93e8))
 
 ## [1.7.0](https://github.com/boringcodes/create-package/compare/v1.6.0...v1.7.0) (2020-04-24)
 
-
 ### Features
 
-* **template:** remove unused .prettierignore ([660e413](https://github.com/boringcodes/create-package/commit/660e413258d1752d8c102c58672abb7ca668b60c))
-
+- **template:** remove unused .prettierignore ([660e413](https://github.com/boringcodes/create-package/commit/660e413258d1752d8c102c58672abb7ca668b60c))
 
 ### Bug Fixes
 
-* **deps:** mistaken putting change-case to devDeps ([9f846e1](https://github.com/boringcodes/create-package/commit/9f846e1a4518180fb58ccadd6597a498dfdb1485))
+- **deps:** mistaken putting change-case to devDeps ([9f846e1](https://github.com/boringcodes/create-package/commit/9f846e1a4518180fb58ccadd6597a498dfdb1485))
 
 ## [1.6.0](https://github.com/boringcodes/create-package/compare/v1.5.0...v1.6.0) (2020-03-28)
 
-
 ### Features
 
-* **template:** remove @typescript-eslint/parser eslint-config-standard in favor of eslint-config-standard-with-typescript ([13ec183](https://github.com/boringcodes/create-package/commit/13ec18304f19da0d6f004dc8ad69c26986e5eac5))
-* **template:** remove unused tslint.json ([e94d428](https://github.com/boringcodes/create-package/commit/e94d4287f5e34ee88d1c1b677da99fb017e24e18))
-* **template:** replace pretty-quick with lint-staged, add tsconfig.json ([d5fd206](https://github.com/boringcodes/create-package/commit/d5fd206b8ffeb0f8d7f9719f569a826fbc6f36c3))
-
+- **template:** remove @typescript-eslint/parser eslint-config-standard in favor of eslint-config-standard-with-typescript ([13ec183](https://github.com/boringcodes/create-package/commit/13ec18304f19da0d6f004dc8ad69c26986e5eac5))
+- **template:** remove unused tslint.json ([e94d428](https://github.com/boringcodes/create-package/commit/e94d4287f5e34ee88d1c1b677da99fb017e24e18))
+- **template:** replace pretty-quick with lint-staged, add tsconfig.json ([d5fd206](https://github.com/boringcodes/create-package/commit/d5fd206b8ffeb0f8d7f9719f569a826fbc6f36c3))
 
 ### Bug Fixes
 
-* **template:** add @typescript-eslint/parser to dev deps to resolve unmet peer dep ([49e2f25](https://github.com/boringcodes/create-package/commit/49e2f25e8c623419208075b41b3ec4bc6accce85))
+- **template:** add @typescript-eslint/parser to dev deps to resolve unmet peer dep ([49e2f25](https://github.com/boringcodes/create-package/commit/49e2f25e8c623419208075b41b3ec4bc6accce85))
 
 ## [1.5.0](https://github.com/boringcodes/create-package/compare/v1.4.0...v1.5.0) (2020-03-28)
 
-
 ### Features
 
-* **generator:** remove .github generating ([5ddb543](https://github.com/boringcodes/create-package/commit/5ddb54377439f35ea5d982a43ef49d5d41ca4049))
-* **template:** replace tslint with eslint typescript ([3471278](https://github.com/boringcodes/create-package/commit/3471278c31177e26b21026c395e4880b6ea0fc5e))
+- **generator:** remove .github generating ([5ddb543](https://github.com/boringcodes/create-package/commit/5ddb54377439f35ea5d982a43ef49d5d41ca4049))
+- **template:** replace tslint with eslint typescript ([3471278](https://github.com/boringcodes/create-package/commit/3471278c31177e26b21026c395e4880b6ea0fc5e))
 
 ## [1.4.0](https://github.com/boringcodes/create-package/compare/v1.3.0...v1.4.0) (2020-03-26)
 
