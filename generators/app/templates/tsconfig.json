@@ -3,8 +3,6 @@
     "moduleResolution": "node",
     "module": "es6",
     "target": "es5",
-    "rootDir": "src",
-    "outDir": "build",
     "declaration": true,
     "declarationDir": "build",
     "esModuleInterop": true,
