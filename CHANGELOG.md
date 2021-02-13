@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.9.3](https://github.com/boringcodes/create-package/compare/v1.9.2...v1.9.3) (2021-02-13)
+
+### Bug Fixes
+
+- **generators/app/templates:** missing types def build output ([a9ba15b](https://github.com/boringcodes/create-package/commit/a9ba15ba7cefa855fb427675a0f0749da4ee9081))
+
 ### [1.9.2](https://github.com/boringcodes/create-package/compare/v1.9.1...v1.9.2) (2021-02-13)
 
 ### [1.9.1](https://github.com/boringcodes/create-package/compare/v1.9.0...v1.9.1) (2021-02-10)
