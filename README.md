@@ -34,14 +34,14 @@
 
 ## Features
 
-- [x] [Typescript](https://www.typescriptlang.org)
-- [x] [RollupJS](https://rollupjs.org)
-- [x] [Prettier](https://prettier.io) using [@boringcodes/prettier-config](https://github.com/boringcodes/prettier-config)
-- [x] [ESLint](https://eslint.org) using [@boringcodes/eslint-config-typescript](https://github.com/boringcodes/eslint-config-typescript)
+Generated package includes the following features:
+
+- [x] [RollupJS](https://rollupjs.org) with [@rollup/plugin-typescript](https://github.com/rollup/plugins/blob/master/packages/typescript), [@rollup/plugin-node-resolve](https://github.com/rollup/plugins/blob/master/packages/node-resolve) & [@rollup/plugin-commonjs](https://github.com/rollup/plugins/blob/master/packages/commonjs)
+- [x] [Prettier](https://prettier.io) with [@boringcodes/prettier-config](https://github.com/boringcodes/prettier-config)
+- [x] [ESLint](https://eslint.org) with [@boringcodes/eslint-config-typescript](https://github.com/boringcodes/eslint-config-typescript)
 - [x] [Husky](https://github.com/typicode/husky)
-- [x] [lint-staged](https://github.com/okonet/lint-staged)
-- [x] [NVM](https://github.com/nvm-sh/nvm)
-- [x] [standard-version](https://github.com/conventional-changelog/standard-version)
+- [x] [Lint Staged](https://github.com/okonet/lint-staged)
+- [x] [Standard Version](https://github.com/conventional-changelog/standard-version)
 
 ## Installation
 
