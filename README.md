@@ -74,15 +74,14 @@ $ yo create-package
 This scaffolds out:
 
 ```
+├── .husky
 ├── src
-│   ├── index.ts
-├── .eslintrc.js
-├── .huskyrc
-├── .lintstagedrc
-├── .prettierrc.js
+│   └── index.ts
+├── .gitignore
 ├── package.json
+├── README.md
 ├── rollup.config.js
-├── tsconfig.json
+└── tsconfig.json
 ```
 
 ## Contributing
