@@ -47,28 +47,41 @@ module.exports = class extends Generator {
         message: 'Author?',
         default: `${gitName} <${gitEmail}>`,
       },
+      {
+        type: 'list',
+        name: 'elementPM',
+        message: 'Package manager?',
+        choices: [
+          { name: 'Yarn', value: 'yarn' },
+          { name: 'NPM', value: 'npm' },
+        ],
+        default: 0,
+      },
     ];
 
-    const props = await this.prompt(prompts);
+    const { elementPM, ...restProps } = await this.prompt(prompts);
+
+    this.env.options.nodePackageManager = elementPM;
 
     this.props = {
-      ...props,
-      elementName: changeCase.paramCase(props.elementName),
+      ...restProps,
+      elementName: changeCase.paramCase(restProps.elementName),
       elementOrganizationName: changeCase.paramCase(
-        props.elementOrganizationName,
+        restProps.elementOrganizationName,
       ),
     };
   }
 
   writing() {
     this.fs.copyTpl(
-      [this.templatePath('**/*'), this.templatePath('**/.*')],
+      [
+        this.templatePath('**/*'),
+        this.templatePath('**/.*'),
+        this.templatePath('**/.husky/*'),
+        this.templatePath('**/.husky/.*'),
+      ],
       this.destinationPath(),
       this.props,
     );
-  }
-
-  install() {
-    this.yarnInstall();
   }
 };
