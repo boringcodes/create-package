@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.11.0](https://github.com/boringcodes/create-package/compare/v1.10.1...v1.11.0) (2021-06-07)
+
+### Features
+
+- **generators/app:** add .gitignore, LICENSE & README.md to templates ([751cd63](https://github.com/boringcodes/create-package/commit/751cd6332edd2c2086642b7f26c19ce269a8c4f3))
+
 ### [1.10.1](https://github.com/boringcodes/create-package/compare/v1.10.0...v1.10.1) (2021-06-07)
 
 ## [1.10.0](https://github.com/boringcodes/create-package/compare/v1.9.4...v1.10.0) (2021-06-07)
