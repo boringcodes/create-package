@@ -15,18 +15,23 @@
     "build": "rollup -c",
     "postbuild": "copyfiles CHANGELOG.md LICENSE package.json README.md build",
     "purge": "rimraf node_modules",
-    "clean": "rimraf build .rpt2_cache",
+    "clean": "rimraf build",
     "format": "prettier --write --ignore-path .gitignore .",
     "format:check": "prettier --check --ignore-path .gitignore .",
     "lint": "eslint --quiet --ignore-path .gitignore --ext .ts .",
     "release": "standard-version",
     "release:major": "yarn release --release-as major",
     "release:minor": "yarn release --release-as minor",
-    "release:patch": "yarn release --release-as patch"
+    "release:patch": "yarn release --release-as patch",
+    "husky": "husky",
+    "lint-staged": "lint-staged",
+    "commitlint": "commitlint"
   },
   "devDependencies": {
     "@boringcodes/eslint-config-typescript": "*",
     "@boringcodes/prettier-config": "*",
+    "@commitlint/cli": "*",
+    "@commitlint/config-conventional": "*",
     "@rollup/plugin-commonjs": "*",
     "@rollup/plugin-node-resolve": "*",
     "@rollup/plugin-typescript": "*",
@@ -48,5 +53,14 @@
     "standard-version": "*",
     "tslib": "*",
     "typescript": "*"
+  },
+  "lint-staged": {
+    "*.{ts,js,json,md,yml}": "yarn format",
+    "*.ts": "yarn lint"
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
   }
 }
