@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.10.0](https://github.com/boringcodes/create-package/compare/v1.9.4...v1.10.0) (2021-06-07)
+
+### Features
+
+- **generators/app:** remove deprecated install(), add Package manager to prompt questions ([c0e4b48](https://github.com/boringcodes/create-package/commit/c0e4b48a7f9274ab43f0cce882928f6e06f3d7f4))
+- **templates:** add commitlint & new husky config ([c592444](https://github.com/boringcodes/create-package/commit/c5924446526de8321a895082f73b52b461445dbf))
+
 ### [1.9.4](https://github.com/boringcodes/create-package/compare/v1.9.3...v1.9.4) (2021-02-14)
 
 ### [1.9.3](https://github.com/boringcodes/create-package/compare/v1.9.2...v1.9.3) (2021-02-13)
